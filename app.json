@@ -16,8 +16,8 @@
     "AUTO_READ_MESSAGES":
     {
       "description":"Put yes if you want the bot to autoread people's messages or else put no", 
-      "value":"no", 
-      "required":false 
+      "value":"yes", 
+      "required":true
     }, 
     "AUTO_READ_STATUS":
     {
@@ -41,7 +41,7 @@
     "BOT_NAME" : {
 
       "description":"put A name for your bot",
-      "value":"FLASH-MD",
+      "value":"MOHAMEDI-MD",
       "required":false
 
     } ,
@@ -71,14 +71,14 @@
     "SESSION_ID":
     {
       "description":"put your session ID, AMKE SURE IT STARTS WITH FLASH-MD-WA-BOT;;;=>",   
-      "value":"",
+      "value":"FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWUVpbGNyWWtWcERHNzhIWUxXTUxpTHRGUEtuT0drakI5M2loR0IxUmVWUT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUlU4RUZ3bktYMS84NGJteHM0ZWJnZ2FCK0Y4V1lwZzNab0ZSckpZaEVqRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZRzJxb083d3l3d2lDK09ZZDBjamVnSFZJQzFtWGpvb244OEpaQWpWWG5VPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVUnlXbjNVR0dBOWNNcWpsSkxUTHVDbElwOFZFczJPU0JsUHcvbjNvK1hVPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImNFc2ZaMWhka3h1M0NHbm1iVldsdDhUS2o3K1MwRFRSVFJXZ0JRYTFDMUE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik9PTVBxaTFNMUZZaUJyejU3SHBZemxnVnFmWXJhMjArM3drT0w5QzlXSFU9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRUxFZW9VU1g1WUtaRU5TamhydUFQaHFOK0pGWmZYRjlSbFBJQ1o5dzluVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibWN3Y1FiTW1YN2FmUm5XTjVDT2dTYWlsYU5aZjd1Vi9GWjM1NEQxSlVURT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlR4bitVY1JJTmR0MVZIV3dUNmhaRk1kcGxjS0VVRlJ1ME5KRXVidURwM0loMkRjaW5mOXl4djJRa3RVbFppM29ZckJrUGJLMmhQQVh4S1ZEeWdNTERBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTYzLCJhZHZTZWNyZXRLZXkiOiJDSUk4N0YrODdpQUF2Y0tBRnJvbzJPK2FlWFIyaHlHeGV4a0NWSnVjWVJNPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJGTjl1eHMzQlRsTzgxS2VfbU1lOTZ3IiwicGhvbmVJZCI6IjYyMjk3NTMyLTJkMTEtNDIxNC04MmUwLTc0ZTkzZmY4MzFmMyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJrMnErRUg4b1oycVhKZU5yZkI2bERKbkkyZDQ9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWlZOR3dYYjlWdnFURFVTZ0FaTDVrb3hSeG1rPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IllNODk4S0U2IiwibWUiOnsiaWQiOiIyNTU2NTI2NDMxMjU6MTVAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ1B5czRab0ZFS0NLNExJR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ilg1UWZLWng0aGJtSVVyd1NjWFVacHd2aGtsVm4zV1ZTWjFOdnBRYnN5Ums9IiwiYWNjb3VudFNpZ25hdHVyZSI6IjhXaGw1Nm9GV2VFYzd5V0FnTG5wMXZmeFBYdFlqVkwyNlNIc1FmQ2twTi8vcWh2cVZwdGY3QjdlazlWbVFkT21QL2RBWlB4QkFHZUZPaVhwN0d5dUJnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiIrVnVCaU9hVm1PV0wyNGg5WktWeTlCZkhPQWVUZzc1ME0wSG9HMlVsRDFST2JWV3Y1U3p5bmVxencwdUlEWDVqWUdnWWFZRU1saytlQW5WR1AzZktDUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NTY1MjY0MzEyNToxNUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJWK1VIeW1jZUlXNWlGSzhFbkYxR2FjTDRaSlZaOTFsVW1kVGI2VUc3TWtaIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzE3MDQ0NTI2fQ==",
       "required": true
 
     },
     "OWNER_NAME":
     {
 
-    "desc": "Your Name",
+    "desc": "MOHAMEDI HATIBU MOHAMEDI ",
     "required": false,
     "value": "France King"
   },
@@ -87,7 +87,7 @@
 
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254751284190"
+    "value": "255652643125"
   },
     "WARN_COUNT":
   {
@@ -99,7 +99,7 @@
     {
       "desc": "Put yes to allow the bot to chat with people who text you or put no if you don't want the bot to chat with people",
       "required": false, 
-       "value": "no" 
+       "value": "yes" 
     }, 
   "STARTING_BOT_MESSAGE":
   {
@@ -109,7 +109,7 @@
   },
   "PRESENCE":{
     "description":"Put online to indicate that you are ever online even if you are not. Put typing to indicate that you are currently typing a message. Put recording to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"online typing...",
     "required": false
   }  
   },
